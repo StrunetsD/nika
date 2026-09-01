@@ -1,9 +1,0 @@
-zina
-<- concept_hobbyist;
-<- concept_gardener;
-=> nrel_main_idtf:
-    [Зина](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [Zina](* <- lang_en;; *);
-=> nrel_plants: [роза] (* <- lang_ru;; *);
-=> nrel_does: [цветы] (* <- lang_ru;; *);;

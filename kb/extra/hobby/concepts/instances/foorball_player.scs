@@ -1,8 +1,0 @@
-football_player
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [футболист](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [football player](* <- lang_en;; *);
-=> nrel_practiced_by: foorball;
-=> nrel_part_of_club: barselona;;

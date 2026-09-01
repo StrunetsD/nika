@@ -1,6 +1,0 @@
-medium
-<- concept_difficulty_level;
-=> nrel_main_idtf:
-    [средний](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [medium](* <- lang_en;; *);;

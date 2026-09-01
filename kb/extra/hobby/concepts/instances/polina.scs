@@ -1,6 +1,0 @@
-polina
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [полина](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [polina](* <- lang_en;; *);;

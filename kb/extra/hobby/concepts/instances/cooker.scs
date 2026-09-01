@@ -1,7 +1,0 @@
-cooker
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [повар](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [cooker](* <- lang_en;; *);
-=> nrel_collects: dish;;

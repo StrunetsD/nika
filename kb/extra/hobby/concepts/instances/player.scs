@@ -1,7 +1,0 @@
-player
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [игрок](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [player](* <- lang_en;; *);
-=> nrel_collects: mouse;;

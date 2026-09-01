@@ -1,6 +1,0 @@
-brush
-<- concept_instrument;
-=> nrel_main_idtf:
-    [кисть](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [brush](* <- lang_en;; *);;

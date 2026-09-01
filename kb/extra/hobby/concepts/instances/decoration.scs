@@ -1,6 +1,0 @@
-decoration
-<- concept_collection_hobby;
-=> nrel_main_idtf:
-    [украшение](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [decoration](* <- lang_en;; *);;

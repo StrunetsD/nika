@@ -1,6 +1,0 @@
-classic
-<- concept_book_genre;
-=> nrel_main_idtf:
-    [классика](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [classic](* <- lang_en;; *);;

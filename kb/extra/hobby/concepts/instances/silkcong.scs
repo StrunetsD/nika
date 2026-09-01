@@ -1,8 +1,0 @@
-silksong
-<- concept_game;
-=> nrel_main_idtf:
-    [силксон](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [silsong](* <- lang_en;; *);
-=> nrel_played_with: kate;
-=> nrel_played_on: steam;;

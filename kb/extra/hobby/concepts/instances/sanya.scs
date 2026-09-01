@@ -1,6 +1,0 @@
-sanya
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [Саня](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [sanya](* <- lang_en;; *);;

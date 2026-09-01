@@ -1,6 +1,0 @@
-low
-<- concept_difficulty_level;
-=> nrel_main_idtf:
-    [низкий](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [low](* <- lang_en;; *);;

@@ -1,6 +1,0 @@
-backend
-<- concept_programming;
-=> nrel_main_idtf:
-    [бекэнд](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [backend](* <- lang_en;; *);;

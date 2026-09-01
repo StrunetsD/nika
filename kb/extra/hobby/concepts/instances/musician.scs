@@ -1,6 +1,0 @@
-musician
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [музыкант](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [musician](* <- lang_en;; *);;

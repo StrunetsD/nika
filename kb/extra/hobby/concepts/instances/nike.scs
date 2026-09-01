@@ -1,9 +1,0 @@
-nike
-<- concept_hobbyist;
-<- concept_programmer;
-=> nrel_main_idtf:
-    [Ник](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [Nike](* <- lang_en;; *);
-=> nrel_does: backend;
-=> nrel_writes_on: python;;

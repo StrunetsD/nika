@@ -1,8 +1,0 @@
-football
-<- concept_sport;
-=> nrel_main_idtf:
-    [футбол](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [football](* <- lang_en;; *);
-=> nrel_requires_instrument: ball;
-=> nrel_has_difficulty: medium;;

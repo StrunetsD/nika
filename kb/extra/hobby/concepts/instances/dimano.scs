@@ -1,6 +1,0 @@
-dinamo
-<- concept_club;
-=> nrel_main_idtf:
-    [динамо](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [dinamo](* <- lang_en;; *);;

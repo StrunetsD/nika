@@ -1,8 +1,0 @@
-hockey_player
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [хоккеист](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [hockey player](* <- lang_en;; *);
-=> nrel_practiced_by: hocker;
-=> nrel_part_of_club: dinamo;;

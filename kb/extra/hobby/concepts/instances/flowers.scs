@@ -1,6 +1,0 @@
-flowers
-<- concept_gardening;
-=> nrel_main_idtf:
-    [цветы](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [flowers](* <- lang_en;; *);;

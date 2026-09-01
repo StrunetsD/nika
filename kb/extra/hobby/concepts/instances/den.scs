@@ -1,8 +1,0 @@
-den
-<- concept_singer;
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [Ден](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [Den](* <- lang_en;; *);
-=> nrel_sings: pop;;

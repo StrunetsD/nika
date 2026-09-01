@@ -1,6 +1,0 @@
-donut
-<- concept_bakery;
-=> nrel_main_idtf:
-    [пончик](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [donut](* <- lang_en;; *);;

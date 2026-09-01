@@ -1,0 +1,22 @@
+# Ubuntu NIKA stack (binaries from .nika-ubuntu-data, no rebuild).
+# Usage:
+#   docker compose -f docker/ubuntu-nika/docker-compose.yml up -d --build
+#   open http://localhost:3033
+services:
+  nika-ubuntu:
+    build: .
+    image: nika-ubuntu-stack:local
+    container_name: nika-ubuntu
+    platform: linux/amd64
+    restart: unless-stopped
+    ports:
+      - "3033:3033"
+      - "8000:8000"
+      - "8090:8090"
+    volumes:
+      - ../../.nika-ubuntu-data/nika_cw:/home/nika/nika_cw
+      - ../../.nika-ubuntu-data/nika-venv:/opt/nika-venv
+    environment:
+      - NIKA_ROOT=/home/nika/nika_cw
+      - NIKA_VENV=/opt/nika-venv
+      - LOG_DIR=/home/nika/logs

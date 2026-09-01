@@ -1,7 +1,0 @@
-guitar
-<- concept_creative_hobby;
-=> nrel_main_idtf:
-    [гитара](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [guitar](* <- lang_en;; *);
-=> nrel_practiced_by: musician;;

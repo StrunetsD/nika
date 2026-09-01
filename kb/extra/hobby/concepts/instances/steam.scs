@@ -1,6 +1,0 @@
-steam
-<- concept_online_platform;
-=> nrel_main_idtf:
-    [стим](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [steam](* <- lang_en;; *);;

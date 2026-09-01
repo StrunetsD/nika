@@ -1,6 +1,0 @@
-glasses
-<- concept_collection_hobby;
-=> nrel_main_idtf:
-    [очки](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [glasses](* <- lang_en;; *);;

@@ -1,7 +1,0 @@
-knitting
-<- concept_creative_hobby;
-=> nrel_main_idtf:
-    [вязание](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [knitting](* <- lang_en;; *);
-=> nrel_uses_material: yarn;;

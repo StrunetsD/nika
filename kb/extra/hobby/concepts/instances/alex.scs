@@ -1,8 +1,0 @@
-alex
-<- concept_hobbyist;
-<- concept_baker;
-=> nrel_main_idtf:
-    [Алекс](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [Alex](* <- lang_en;; *);
-=> nrel_cooks: donut;;

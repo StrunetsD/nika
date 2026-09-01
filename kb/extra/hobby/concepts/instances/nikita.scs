@@ -1,7 +1,0 @@
-nikita
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [никита](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [nikita](* <- lang_en;; *);
-=> nrel_collects: glasses;;

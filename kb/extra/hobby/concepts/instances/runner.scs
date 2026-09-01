@@ -1,7 +1,0 @@
-runner
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [бегун](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [runner](* <- lang_en;; *);
-=> nrel_competes_in: marathon;;

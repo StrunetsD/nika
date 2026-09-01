@@ -1,7 +1,0 @@
-reader
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [читатель](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [reader](* <- lang_en;; *);
-=> nrel_collects: book;;

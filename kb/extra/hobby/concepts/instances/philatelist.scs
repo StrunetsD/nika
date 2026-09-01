@@ -1,7 +1,0 @@
-philatelist
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [филателист](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [philatelist](* <- lang_en;; *);
-=> nrel_collects: stamps;;

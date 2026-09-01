@@ -1,6 +1,0 @@
-dish
-<- concept_collection_hobby;
-=> nrel_main_idtf:
-    [посуда](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [dish](* <- lang_en;; *);;

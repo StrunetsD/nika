@@ -1,8 +1,0 @@
-minecraft
-<- concept_game;
-=> nrel_main_idtf:
-    [майнкрафт](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [minecraft](* <- lang_en;; *);
-=> nrel_played_with: vanya;
-=> nrel_played_with: polina;;

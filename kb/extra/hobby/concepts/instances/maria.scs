@@ -1,7 +1,0 @@
-maria 
-<- concept_hobbyist;
-=> nrel_main_idtf:
-    [мария](* <- lang_ru;; *);
-=> nrel_main_idtf:
-    [maria](* <- lang_en;; *);
-=> nrel_collects: decoration;;

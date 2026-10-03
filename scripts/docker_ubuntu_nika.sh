@@ -46,17 +46,20 @@ sync_kb_to_staging() {
   if [ -d "$ROOT/kb/extra/laba" ]; then
     rsync -a --delete "$ROOT/kb/extra/laba/" "$STAGING/kb/extra/laba/"
   fi
+  if [ -d "$ROOT/kb/extra/lab_tasks" ]; then
+    rsync -a --delete "$ROOT/kb/extra/lab_tasks/" "$STAGING/kb/extra/lab_tasks/"
+  fi
   # C++ modules (new agents). Keep container-built generated/ headers.
   rsync -a --delete \
     --exclude 'generated/' \
     --exclude '*.gen_cache' \
     "$ROOT/problem-solver/cxx/" "$STAGING/problem-solver/cxx/"
   # drop macOS junk / old experiments that break builder
-  find "$STAGING/kb/extra/art" "$STAGING/kb/extra/lab_2" "$STAGING/kb/extra/lab_3" "$STAGING/kb/extra/laba" \
+  find "$STAGING/kb/extra/art" "$STAGING/kb/extra/lab_2" "$STAGING/kb/extra/lab_3" "$STAGING/kb/extra/laba" "$STAGING/kb/extra/lab_tasks" \
     -name '._*' -delete 2>/dev/null || true
   rm -f "$STAGING/kb/extra/art/dialog/lr_classify_art_entities.gwf" 2>/dev/null || true
   rm -rf "$STAGING/kb/extra/art/dialog/classify" 2>/dev/null || true
-  echo "Synced kb/extra/{art,lab_2,lab_3,laba} + problem-solver/cxx -> .nika-ubuntu-data"
+  echo "Synced kb/extra/{art,lab_2,lab_3,laba,lab_tasks} + problem-solver/cxx -> .nika-ubuntu-data"
 }
 
 rebuild_kb_in_container() {
